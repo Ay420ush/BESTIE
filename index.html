@@ -170,7 +170,7 @@
             foot.draw();
             tree.snapshot("p2", 500, 0, 610, 680);
 
-            canvas.parent().css("background", "url(" + tree.toDataURL('image/png') + ")");
+            canvas.parent().css("background", "url(" + tree.toDataURL('img/png') + ")");
             canvas.css("background", "#ffe");
             $await(Jscex.Async.sleep(300));
             canvas.css("background", "none");
@@ -188,7 +188,7 @@
 
         var textAnimate = eval(Jscex.compile("async", function () {
 		    var together = new Date();
-		    together.setFullYear(2002, 25, 12); 			//时间年月日
+		    together.setFullYear(2009, 17, 6); 			//时间年月日
 		    together.setHours(20);						//小时	
 		    together.setMinutes(0);					//分钟
 		    together.setSeconds(0);					//秒前一位
